@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://links.cyberalliance.in"><img src="https://links.cyberalliance.in/img/logo.png" alt="Cyber Alliance Logo"></a>(https://links.cyberalliance.in/img/logo.png)
+  
 </h1>
 
 # In-Depth guides for Tools and Technologies
