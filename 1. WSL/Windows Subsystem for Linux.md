@@ -48,7 +48,7 @@ sudo apt update && sudo apt upgrade
 
 Windows does not automatically update or upgrade your Linux distribution(s). This is a task that most Linux users prefer to control themselves.
 
-### Basic Ubuntu workflow
+## Basic Ubuntu workflow
 
 In order to create a new directory called `files` we’ll write the following, with `mkdir` being the command and `files` being the argument:
 
