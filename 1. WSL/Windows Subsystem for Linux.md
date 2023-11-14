@@ -178,9 +178,9 @@ cd /home/cyberalliance/files
 
 Now, if you run `pwd` you’ll receive `/home/cyberalliance/files` as your output.
 
-A **file path** is the representation of where a file or directory is located on your computer or server. You can call a path to a file or directory in either a relative or absolute way. A **relative path** would be when we move to a location relative to our current working directory, like we did when we were already in `/home/cyberalliance/` and then moved into `files/`. An **absolute path** is when we call the direct line to a location, as we did above withcyberallianceme/cyberalliance/files`, showing that we started in the `/` directory, cacyberalliancethecyberallianceme/sammy/` user directory and then the nested `files/` directory.
+A **file path** is the representation of where a file or directory is located on your computer or server. You can call a path to a file or directory in either a relative or absolute way. A **relative path** would be when we move to a location relative to our current working directory, like we did when we were already in `/home/cyberalliance/` and then moved into `files/`. An **absolute path** is when we call the direct line to a location, as we did above with `/home/cyberalliance/files`, showing that we started in the `/` directory, called the `/home/cyberalliance/` user directory and then the nested `files/` directory.
 
-Additionally, Linux leverages **dot notation** to help users navigate via relative paths. A single `.` stands for the directory you are currently in, and a double `..` stands for the parent directory. So, from where we currently are (`/home/cyberalliance/files`), we can use two dots to return to the parentcyberallianceme/cyberalliance` user directory, like so:
+Additionally, Linux leverages **dot notation** to help users navigate via relative paths. A single `.` stands for the directory you are currently in, and a double `..` stands for the parent directory. So, from where we currently are (`/home/cyberalliance/files`), we can use two dots to return to the parent `/home/cyberalliance` user directory, like so:
 
 ```bash
 cd ..
@@ -188,7 +188,7 @@ cd ..
 
 If you run `pwd`, you’ll receive `/home/cyberalliance` as your output, and if you run `ls`, you’ll receive `files` as your output.
 
-Another important symbol to be familiar with is `~` which stands for the home directory of your machine. Here, our home directory is called `/home/cyberalliance` cyberalliancehe sammy user, but on a local machine it may be your cyberallianceame as in `sammy-shark/`.
+Another important symbol to be familiar with is `~` which stands for the home directory of your machine. Here, our home directory is called `/home/cyberalliance` for our user.
 
 You can type the following from anywhere on your machine and return to this home directory:
 
