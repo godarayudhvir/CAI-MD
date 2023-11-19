@@ -1,9 +1,0 @@
-{
-    "label": "WSL",
-    "position": 3,
-    "link": {
-      "type": "generated-index",
-      "description": "Windows Subsystem for Linux (WSL) lets developers run a GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup."
-    }
-  }
-  
