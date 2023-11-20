@@ -49,4 +49,8 @@ Overview of Portainer
 
 ![](https://i.imgur.com/oOyeUFa.gif)
 
+Removing a container with it's volume
+
+![](https://i.imgur.com/nga727Q.gif)
+
 
