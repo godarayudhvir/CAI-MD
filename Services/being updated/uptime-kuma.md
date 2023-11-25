@@ -83,25 +83,25 @@ Inside that create a folder named uptime-kuma
 3. **Creating a Docker Compose file**:
    
    - Now create a docker compose file by using the command
-     `nano docker-compose.yml`
+     `nano docker-compose.yml` after navigating into uptime-kuma directory
    - Copy and paste the commands from below
-   
-   ```yaml
-   version: '3.8'
-   
-   services:
-     uptime-kuma:
-       image: louislam/uptime-kuma:1
-       container_name: uptime-kuma
-       volumes:
-         - /home/username/docker/uptime-kuma/data:/app/data
-       ports:
-         - "2000:3001"  # <Host Port>:<Container Port>
-       restart: always
-   
-   volumes:
-     uptime-kuma:
-   ```
+
+```yaml
+version: '3.8'
+
+services:
+  uptime-kuma:
+    image: louislam/uptime-kuma:1
+    container_name: uptime-kuma
+    volumes:
+      - /home/username/docker/uptime-kuma/data:/app/data
+    ports:
+      - "2000:3001"  # <Host Port>:<Container Port>
+    restart: always
+
+volumes:
+  uptime-kuma:
+```
 
 ### Docker-compose configuration break-down
 
@@ -147,6 +147,7 @@ When you execute this command, Docker Compose reads your configuration file, cre
 ![](https://i.imgur.com/kQn9txn.png)
 
 Check if the container is up & Running using the cmd `docker ps -a`
+
 ![](https://i.imgur.com/awptPgn.png)
 
 If it's running then process to next section
@@ -194,13 +195,9 @@ Now we've uptime-kuma running so lets configure it for use now
    - Add Tags, if any
    
    - Setup notification (**We'll come back to this later**)
-   
-   
-   
-   > Proxy, HTTP, Ignore TLS/SSL, Accepted status code options and Upside down mode are Not covered in this guide atleast currently.
-   
-   
-   
+
+> Proxy, HTTP, Ignore TLS/SSL, Accepted status code options and Upside down mode are Not covered in this guide atleast currently.
+
    ![](https://i.imgur.com/3FwrxPd.png)
 
 ### More configurations soon...
@@ -231,4 +228,18 @@ These are few ways how we can go about doing that
 
 ## Updating Instance
 
-## Backup/Restore Instance
+## Backuping up & restoring Containers and Their volumes
+
+https://wiki.opensourceisawesome.com/books/updating-docker-containers/page/update-docker-keep-your-data-too
+
+## Going Plus Ultra 💪🏼
+
+![](https://i.imgur.com/a3K5pTl.png)
+
+![](https://i.imgur.com/hKNcNHe.png)
+
+![](https://i.imgur.com/zs0KnmR.png)
+
+docker create --name temp_container louislam/uptime-kuma:1
+docker cp temp_container:/path/in/container /home/username/docker/uptime-kuma/
+docker rm temp_container
