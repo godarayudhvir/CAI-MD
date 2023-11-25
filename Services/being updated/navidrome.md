@@ -168,7 +168,6 @@ Just add music files to the /music folder in current directory.
 
 Once you are done with it navidrome should auto populate the songs if not manually rescan the library with the option shown below
 
-
 ![](https://i.imgur.com/VnvTPW7.png)
 
 ### Multi user setup
@@ -233,13 +232,3 @@ https://wiki.opensourceisawesome.com/books/updating-docker-containers/page/updat
 ## Going Plus Ultra 💪🏼
 
 ### Custom Theme
-
-![](https://i.imgur.com/a3K5pTl.png)
-
-![](https://i.imgur.com/hKNcNHe.png)
-
-![](https://i.imgur.com/zs0KnmR.png)
-
-docker create --name temp_container louislam/uptime-kuma:1
-docker cp temp_container:/path/in/container /home/username/docker/uptime-kuma/
-docker rm temp_container
