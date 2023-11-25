@@ -54,7 +54,7 @@ With the following Configuration
 ## How to Install 🔧
 
 Firstly Create a folder named Docker inside home/username Directory
-Inside that create a folder named uptime-kuma
+Inside that create a folder named navidrome
 
 1. **Create a Directory Structure**:
    
@@ -70,7 +70,7 @@ Inside that create a folder named uptime-kuma
 
 2. **Create a Specific Project Folder**:
    
-   - Inside the `Docker` directory, create a subfolder named `uptime-kuma`. This subfolder will be dedicated to storing our docker compose file and other config if required.
+   - Inside the `Docker` directory, create a subfolder named `navidrome`. This subfolder will be dedicated to storing our docker compose file and other config if required.
    
    - Navigate into the `Docker` directory:
      
@@ -152,7 +152,7 @@ else contact us if you need any help.
 
 ## Configuring the Instance ⚙
 
-Browse to `127.0.0.1:4000` or `localhost:4000` (change 4000 to the host port you had chosen in your Docker Compose configuration) to access the Uptime Kuma web interface.
+Browse to `127.0.0.1:4000` or `localhost:4000` (change 4000 to the host port you had chosen in your Docker Compose configuration) to access the navidrome web interface.
 
 ![](https://i.imgur.com/aXjSxDy.png)
 
