@@ -188,8 +188,6 @@ Once you are done with it navidrome should auto populate the songs if not manual
 
 ![](https://i.imgur.com/wZV1qq3.png)
 
-
-
 1. Click on user profile icon on top right
 
 2. Click on Personal
@@ -202,7 +200,6 @@ Once you are done with it navidrome should auto populate the songs if not manual
 
 `ND_UILOGINBACKGROUNDURL: https://example.com/image.png`
 
-
 ![](https://i.imgur.com/b6pxnIa.png)
 ![](https://i.imgur.com/ZtHqyR6.png)
 
@@ -210,8 +207,6 @@ Once you are done with it navidrome should auto populate the songs if not manual
 
 Similar to before pass on this environment config
 `ND_UIWELCOMEMESSAGE: your message`
-
-
 
 ![](https://i.imgur.com/Db5JoFt.png)
 
@@ -268,6 +263,4 @@ These are few ways how we can go about doing that
 
 https://wiki.opensourceisawesome.com/books/updating-docker-containers/page/update-docker-keep-your-data-too
 
-## Going Plus Ultra 💪🏼
-
-### Custom Theme
+# 
