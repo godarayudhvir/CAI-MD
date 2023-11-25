@@ -172,25 +172,64 @@ Once you are done with it navidrome should auto populate the songs if not manual
 
 ### Multi user setup
 
-### Accessing from a Mobile Client via Subsonic API
+![](https://i.imgur.com/W0269xV.gif)
 
-### Enabling/Disabling transcoding
+1. Click on profile Icon on top right
 
-### Sharing public links to albums/songs/playlists
+2. Click on Users
 
-### Setting a default theme
+3. Now Click on create on top right
 
-### Enable/Disable Media Download
+4. Now fill in the details for new user
 
-### Thirdparty Metadata fetch
+5. Make admin if required
+
+### Setting a different theme
+
+![](https://i.imgur.com/wZV1qq3.png)
+
+
+
+1. Click on user profile icon on top right
+
+2. Click on Personal
+
+3. Now on the left hand side choose the theme
+   Default Value: Auto
+   Recommended: Spotify-ish, Monkai
 
 ### Login Background
 
+`ND_UILOGINBACKGROUNDURL: https://example.com/image.png`
+
+
+![](https://i.imgur.com/b6pxnIa.png)
+![](https://i.imgur.com/ZtHqyR6.png)
+
 ### Welcome Message
 
-### Monitoring Options
+Similar to before pass on this environment config
+`ND_UIWELCOMEMESSAGE: your message`
 
-### Security considerations
+
+
+![](https://i.imgur.com/Db5JoFt.png)
+
+### Thirdparty Metadata fetch
+
+Refer to the official guide: https://www.navidrome.org/docs/usage/artwork/
+
+### Accessing from a Mobile Client via Subsonic API
+
+Prerequisite: Instance hosted on a domain eg: example.com
+
+Our preferred client for Subsonic API is Substreamer
+Download and Install it from Playstore then do the following
+![](https://i.imgur.com/hn3MVAW.gif)
+
+### Monitoring Options [soon]
+
+### Security considerations [soon]
 
 ### More configurations options
 
@@ -223,7 +262,7 @@ These are few ways how we can go about doing that
    
    - & More
 
-## Updating Instance
+## Updating Instance [soon]
 
 ## Backuping up & restoring Containers and Their volumes
 
