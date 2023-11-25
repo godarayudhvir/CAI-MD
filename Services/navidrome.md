@@ -222,9 +222,13 @@ Our preferred client for Subsonic API is Substreamer
 Download and Install it from Playstore then do the following
 ![](https://i.imgur.com/hn3MVAW.gif)
 
-### Monitoring Options [soon]
+### Security considerations
 
-### Security considerations [soon]
+Pass in a the configuration below to re encrypt paswords with non stock key
+
+`ND_PASSWORDENCRYPTIONKEY: 32digithexadecimalnumber`
+
+### Monitoring Options [soon]
 
 ### More configurations options
 
