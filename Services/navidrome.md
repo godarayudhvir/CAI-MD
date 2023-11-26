@@ -56,38 +56,17 @@ With the following Configuration
 Firstly Create a folder named Docker inside home/username Directory
 Inside that create a folder named navidrome
 
-1. **Create a Directory Structure**:
+1. Create a Directory Structure as such
    
-   - Start by creating a directory named `Docker` inside your home directory. This will serve as the root directory for your Docker-related files and projects.
+   /home/username/docker/navidrome
    
-   - Open your terminal or command prompt and navigate to your home directory using the `cd /home/username` 
-   
-   - Create the `Docker` directory:
-     
-     ```bash
-     mkdir Docker
-     ```
+   `mkdir -p /home/cyberalliance/docker/navidrome`
 
-2. **Create a Specific Project Folder**:
-   
-   - Inside the `Docker` directory, create a subfolder named `navidrome`. This subfolder will be dedicated to storing our docker compose file and other config if required.
-   
-   - Navigate into the `Docker` directory:
-     
-     ```bash
-     cd Docker
-     ```
-   
-   - Create the `navidrome` folder:
-     
-     ```bash
-     mkdir navidrome
-     ```
+2. Browse into the Directory `cd /home/cyberalliance/docker/navidrome`
 
-3. **Creating a Docker Compose file**:
-   
-   - Now create a docker compose file by using the command `nano docker-compose.yml` after navigating to navidrome.
-   - Copy and paste the commands from below
+3. Create a Docker compose file inside the directory `nano docker-compose.yml`
+
+4. Copy and Paste the Docker-compose Template from below
 
 ```yaml
 version: "3"

@@ -1,4 +1,3 @@
-
 Signing as root
 
 `sudo -s`
@@ -6,8 +5,6 @@ Signing as root
 - `sudo apt update`: Fetches the list of available updates
 - `sudo apt upgrade`: Strictly upgrades the current packages
 - `sudo apt full-upgrade`: Installs updates ([add or remove packages](https://askubuntu.com/a/1398989/349837)), [equivalent of dist-upgrade](https://askubuntu.com/a/770140/349837)
-
-
 
 Adding a Non root user
 `sudo useradd -u 1000 -g 1000 username`

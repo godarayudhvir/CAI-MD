@@ -63,7 +63,7 @@ They are clustered Netdata Parents. They all have the same data. Select the one 
 ## How to Install 🔧
 
 Firstly Create a folder named Docker inside home/username Directory
-Inside that create a folder named navidrome
+Inside that create a folder named netdata
 
 1. Create a Directory Structure as such
    
