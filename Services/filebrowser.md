@@ -50,7 +50,7 @@ Team of the project contains following authors
 
 - Basic Ubuntu
 
-- Basic Docker
+- Basic Docker, Docker-compose
 
 ## How to Install 🔧
 
@@ -76,14 +76,16 @@ services:
   file-browser:
     image: filebrowser/filebrowser
     container_name: file-browser
-    user: 0:0 #uid and gid
+    user: 0:0 #option1
+    user: 1000:1000 #option2
     ports:
       - 2001:80 #Web Gui Will be available on port 8081
     volumes:
-      - /:/srv #serves enire server storage
+      - /:/srv #serves enire server storage works only with option1
+      - /home/username/:/srv #serves home directory of user
       - /home/username/docker/filebrowser/filebrowser.db:/database.db
-      - /mnt/e/Media Libraries:/srv/public/ #windows storage mount
-    restart: unless-stopped #Docker will restart on its own everytime it crashes
+      - /mnt/e/Media Libraries:/srv/public/
+    restart: unless-stopped
     security_opt:
       - no-new-privileges:true
 ```
@@ -99,6 +101,8 @@ This Docker Compose file is used to define and run a service called `file-brows
 - `container_name: file-browser`: This sets the name of the container to `file-browser`.
 
 - `user: 0:0`: This sets the user and group ID for the process inside the container to `0:0`, which corresponds to the root user.
+
+- `user: 1000:1000`: This sets the user and group ID for the process inside the container to `1000:1000`, which corresponds to the first non root user.
 
 - `ports:`: This keyword is used to expose ports.
   

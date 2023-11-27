@@ -151,8 +151,45 @@ Browse to `127.0.0.1:4001` or `localhost:4001` (change 4001 to the host port you
 
 5. Next, Next others
 
-#### Login
+---
 
 Login into jellyfin using the credentials setup earlier
 
+Now have a look around and see how things go
 
+---
+
+
+
+### Setting up for Remote Access 📡
+
+These are few ways how we can go about doing that
+
+1. If you have a domain name such as example.com
+   then you might wanna setup a reverse proxy using
+   
+   - Nginx Proxy Manager
+   
+   - [Cloudflare Tunnel](https://github.com/godarayudhvir/shownotes/blob/main/Cloudflare/cf_tunnel.md)
+   
+   - Traefik
+   
+   - & More
+   
+   - After any of the above ^ set BaseUrl `ND_BASEURL` in compose file
+     example: `https://music.example.com`
+
+2. If you don't have a domain name or don't want public accessing it
+   setup VPN one of the following services
+   
+   - Tailscale
+   
+   - Twingate
+   
+   - & More
+
+## Updating Instance [soon]
+
+## Backuping up & restoring Containers and Their volumes
+
+https://wiki.opensourceisawesome.com/books/updating-docker-containers/page/update-docker-keep-your-data-to
