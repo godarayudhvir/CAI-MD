@@ -127,7 +127,15 @@ Now you'll be greeted with the Komga homescreen Web UI
 
 ![](https://i.imgur.com/dLlF50S.png)
 
+Now click Add Library and browse the data folder mounted earlier
+and configure library as you would like.
+![](https://i.imgur.com/u0rVWqN.gif)
+
 ## Additional Configuration Options
+
+### Adding another user
+
+![](https://i.imgur.com/MWvb0PT.gif)
 
 ## Customization ✨
 
