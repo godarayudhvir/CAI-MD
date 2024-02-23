@@ -5,7 +5,7 @@
 
 # In-Depth guides for Tools and Technologies
 
-![screenshot](E:\user_libraries\Documents\GitHub\shownotes\thumb.jpg)
+![https://i.imgur.com/6DGs3BS.jpeg](https://i.imgur.com/6DGs3BS.jpeg)
 
 This repository contains a series of tutorials on how to use Linux, Docker To Selfhost various opensource applications. 
 
@@ -19,12 +19,8 @@ Docker compose, Docker networking, and how to deploy and manage your own applica
 * Video-Guide Availability (soon)
 * Discord Community for support (soon)
 
-
-
 > **What you will learn ?**
 > These Guides will Teach you various Technologies and Tools such as Docker, Portainer, Cloudflare, VPN & more.
-
-
 
 ## Credits
 
