@@ -1,11 +1,17 @@
 <h1 align="center">
   <br>
-  
+
 </h1>
 
 # In-Depth guides for Tools and Technologies
 
-![screenshot](https://camo.githubusercontent.com/74cd0fc474f47a6eb6baa9ff307219fc33919e58bc3e4488b2fd7934892d8025/68747470733a2f2f692e696d6775722e636f6d2f5934626f5179342e676966)
+![screenshot](E:\user_libraries\Documents\GitHub\shownotes\thumb.jpg)
+
+This repository contains a series of tutorials on how to use Linux, Docker To Selfhost various opensource applications. 
+
+The tutorials are written in markdown format and are easy to follow along. 
+You will learn the basics of Linux commands, Docker installation and usage, 
+Docker compose, Docker networking, and how to deploy and manage your own applications using Docker containers.
 
 ## Key Features
 
@@ -13,8 +19,12 @@
 * Video-Guide Availability (soon)
 * Discord Community for support (soon)
 
+
+
 > **What you will learn ?**
-> These Guides will Teach you various Technologies and Tools such as Docker
+> These Guides will Teach you various Technologies and Tools such as Docker, Portainer, Cloudflare, VPN & more.
+
+
 
 ## Credits
 
@@ -23,13 +33,10 @@ These Guides wouldn't have been possible without
 - [ShareX](https://github.com/ShareX/ShareX)
 - [marktext](https://github.com/marktext/marktext)
 - [Imgur](https://imgur.com/)
+- Above illustration via Copilot Designer
 
 Lastly Github 🙏🙏 of course.
 
-## Related
-
-[In Development Docs Site](https://docs.cyberalliance.in/)
-
-## Support
+## Support Me
 
 [PayPal.Me](https://www.paypal.com/paypalme/ysg2544)
