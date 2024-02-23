@@ -7,7 +7,7 @@
 
 ![https://i.imgur.com/6DGs3BS.jpeg](https://i.imgur.com/6DGs3BS.jpeg)
 
-This repository contains a series of tutorials on how to use Linux, Docker To Selfhost various opensource applications. 
+This repository contains a series of tutorials on how to use Linux & Docker To Selfhost various opensource applications. 
 
 The tutorials are written in markdown format and are easy to follow along. 
 You will learn the basics of Linux commands, Docker installation and usage, 
