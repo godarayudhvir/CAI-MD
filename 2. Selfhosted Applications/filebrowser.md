@@ -79,9 +79,9 @@ services:
     user: 0:0 #option1
     user: 1000:1000 #option2
     ports:
-      - 2001:80 #Web Gui Will be available on port 8081
+      - 2001:80 #Web Gui Will be available on port 2001
     volumes:
-      - /:/srv #serves enire server storage works only with option1
+      - /:/srv #serves entire server storage works only with option1
       - /home/username/:/srv #serves home directory of user
       - /home/username/docker/filebrowser/filebrowser.db:/database.db
       - /mnt/e/Media Libraries:/srv/public/
